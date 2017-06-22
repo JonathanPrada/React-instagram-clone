@@ -4,16 +4,20 @@ class App extends Component {
   render() {
     return (
       <div className="row">
-          <div className="col-3">
-              <div>Logo</div>
-              <div>Reactiforum</div>
+          <div className="col-2">
+              <i className="fa fa-heart-o float-right fa-3x" aria-hidden="true" />
           </div>
-          <div className="col-6">
-              <div>Search Bar</div>
-              <div>Likes</div>
+          <div className="col-2">
+              <div id="menu-title" className="text-left">Reactforum</div>
           </div>
-          <div className="col-3">
-            <div>Profile</div>
+          <div className="col-4">
+              <div className="text-center">Search Bar</div>
+          </div>
+          <div className="col-2">
+              <div className="text-right">Likes</div>
+          </div>
+          <div className="col-2">
+            <div className="text-left">Profile</div>
           </div>
       </div>
     );
